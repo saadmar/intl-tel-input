@@ -1,0 +1,9 @@
+autoSyncSettings: true
+branchSequence:
+    - name: develop
+      autoCreatePullRequest: true
+      reviewers: 
+        - saadmar
+      additionalTasks:
+        - name: "test in dev environment"
+    - name: master
